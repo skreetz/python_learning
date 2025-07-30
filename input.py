@@ -1,4 +1,4 @@
-nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
-
-print("Olá,", nome + "! Você tem", idade, "anos.")
+n1 = int(input("Digit um valor: "))
+n2 = int(input("Digite outro valor: "))
+soma = n1 + n2
+print("A soma entre {} e {} é igual a {}".format(n1, n2, soma))

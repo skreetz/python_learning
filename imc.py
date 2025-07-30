@@ -1,4 +1,4 @@
-peso = input("Digite o seu peso em kg: ")
+peso = int(input("Digite o seu peso em kg: "))
 altura = input("Digite a sua altura em centímetros: ")
 
 peso = float(peso)
