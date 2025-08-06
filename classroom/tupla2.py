@@ -6,6 +6,4 @@
 
 dados = input("Digite seu nome, idade e altura separados por vírgula: ")
 tupla = nome, idade, altura = dados.split(",")
-print(f"Nome: {nome}")
-print(f"Idade: {idade}")
-print(f"Altura: {altura}")
+print(tupla)
